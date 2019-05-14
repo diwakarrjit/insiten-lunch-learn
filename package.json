@@ -1,0 +1,18 @@
+{
+  "name": "nodemongo",
+  "version": "1.0.0",
+  "description": "sample app for Insiten lunch and learn",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "diwakar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.4"
+  }
+}
