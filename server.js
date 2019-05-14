@@ -7,7 +7,7 @@ var express = require('express'),
   
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb+srv://diwakar:Insiten1@cluster0-wixcp.azure.mongodb.net/test?retryWrites=true', { useNewUrlParser: true }); 
+mongoose.connect('mongodb+srv://diwakar:Insiten@cluster0-wixcp.azure.mongodb.net/test?retryWrites=true', { useNewUrlParser: true }); 
 
 
 app.use(bodyParser.urlencoded({ extended: true }));
